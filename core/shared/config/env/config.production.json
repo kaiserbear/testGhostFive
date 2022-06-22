@@ -1,0 +1,54 @@
+{
+    "url": "http://localhost:2368",
+    "logging": {
+        "level": "info",
+        "transports": [
+            "stdout"
+        ]
+    },
+    "mail": {
+        "transport": "SMTP",
+        "service": "Gmail",
+        "options": {
+            "host": "smtp.gmail.com",
+            "port": 465,
+            "secureConnection": true,
+            "auth": {
+                "user": "hello@kaiserbear.co.uk",
+                "pass": "jxvjfmceducyxukc"
+            }
+        }
+    },
+    "fileStorage": true,
+    "storage": {
+        "active": "s3",
+        "s3": {
+            "accessKeyId": "AKIAIVBM4ULT7FXRLEZA",
+            "secretAccessKey": "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",
+            "bucket": "cockfosterscc",
+            "region": "eu-west-2"
+        }
+    },
+    "database": {
+        "client": "mysql",
+        "connection": {
+            "host": "c8u4r7fp8i8qaniw.chr7pe7iynqr.eu-west-1.rds.amazonaws.com",
+            "port": "3306",
+            "user": "v8io237ql7rvs6mt",
+            "password": "vlg1g96b7ipc94ai",
+            "database": "gcjajhvtpmivvpru"
+        },
+        "pool": {
+            "min": 0,
+            "max": 5
+        },
+        "debug": false
+    },
+    "server": {
+        "host": "0.0.0.0",
+        "port": "13652"
+    },
+    "paths": {
+        "contentPath": "content/"
+    }
+}

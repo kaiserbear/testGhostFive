@@ -1,26 +1,3 @@
 {
-  "url": "http://localhost:2369/",
-  "server": {
-    "port": 2369,
-    "host": "127.0.0.1"
-  },
-  "database": {
-    "client": "sqlite3",
-    "connection": {
-      "filename": "/Users/jayhughes/Development/testGhostFive/content/data/ghost-local.db"
-    }
-  },
-  "mail": {
-    "transport": "Direct"
-  },
-  "logging": {
-    "transports": [
-      "file",
-      "stdout"
-    ]
-  },
-  "process": "local",
-  "paths": {
-    "contentPath": "/Users/jayhughes/Development/testGhostFive/content"
-  }
+    "enableDeveloperExperiments": false
 }
